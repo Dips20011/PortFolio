@@ -9,7 +9,7 @@ function About() {
             <div>
                 <h1 className="text-3xl font-bold mb-5">About</h1>
                 <p>
-                    Hello, I'm Dipali Aba Gonjari, a passionate  developer with a keen eye for Full
+                    Hello, I'm  a passionate  developer with a keen eye for Full
                     Stack . With a background in IT, I strive to create impactful and
                     visually stunning Software solutions that leave a lasting impression.
                 </p>

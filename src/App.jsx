@@ -1,30 +1,28 @@
-import { Toaster } from "react-hot-toast";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import PortFolio from "./components/PortFolio";
 import Experiance from "./components/Experiance";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import PortFolio from "./components/portfolio";
-import React from "react";
+import Contact from "./components/Contact";
+import { Toaster } from "react-hot-toast";
 
-
-
-export default function App() {
+function App() {
   return (
-  <>
- <div>
- <Navbar></Navbar>
-  <Home/>
-  <About/>
-  <PortFolio/>
-  <Experiance/>
-  
-  <Contact/>
-  <Footer/>
- </div>
- <Toaster/>
-
-  </>
-  )
+    <>
+      <div>
+        <Navbar />
+        <Home />
+        <About />
+        <PortFolio />
+        <Experiance />
+        <Contact />
+        <Footer />
+      </div>
+      <Toaster />
+    </>
+  );
 }
+
+export default App;

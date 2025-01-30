@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import PortFolio from "./components/portfolio";
+import React from "react";
 
 
 

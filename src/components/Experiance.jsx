@@ -6,12 +6,13 @@ import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
 import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
+import reactjs from "../../public/reactjs.png";
 function Experiance() {
   const cardItem = [
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "HTML",
     },
     {
       id: 2,
@@ -30,19 +31,11 @@ function Experiance() {
     },
     {
       id: 5,
-      logo: oracle,
-      name: "Oracle",
+            logo: reactjs,
+            name: "ReactJS",
     },
-    {
-      id: 6,
-      logo: spring,
-      name: "Spring",
-    },
-    {
-      id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
-    },
+   
+    
   ];
   return (
     <div
